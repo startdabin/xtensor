@@ -244,4 +244,4 @@ The underlying 1D data buffer can be accessed with the ``data`` method:
     xt::xarray<double> a = {{1., 2., 3.}, {4., 5., 6.}};
     a.data()[4] = 8.;
     std::cout << a << std::endl;
-    // Outputs {{1., 2., 3.}, {8., 5., 6.}}
+    // Outputs {{1., 2., 3.}, {4., 8., 6.}}
